@@ -44,6 +44,10 @@ a.link {
     transition: 250ms ease-in-out;
 }
 
+a.link:hover {
+    color: #fcd308;
+}
+
 li.list {
     float: right;
     list-style: none;
