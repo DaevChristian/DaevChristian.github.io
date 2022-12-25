@@ -15,3 +15,12 @@ function openFolder(evt, folderName) {
   document.getElementById(folderName).style.display = "flex";
   evt.currentTarget.className += " active";
 }
+
+function openList() {
+  var x = document.getElementById("responsivelist");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

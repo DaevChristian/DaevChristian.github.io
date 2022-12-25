@@ -49,6 +49,39 @@ li.list {
     list-style: none;
     margin-top: 0.6em;
     margin-right: 7em;
+    
+}
+
+li.list img {
+    width: 40px;
+    height: auto;
+    display: none;
+    margin-top: -4.6238173871783264234682364862384253646524321032837462742893387978682364623864283648268px;
+    cursor: pointer;
+    
+}
+
+.list-responsive {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.78);
+    height: 220px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    display: none;
+}
+
+.list-responsive a.link {
+    overflow: hidden;
+    height: 30px;
+    margin-top: 12px;
+    transition: 250ms ease-in-out;
+}
+
+.list-responsive a.link:hover {
+    color:#fcd308;
 }
 
 .intro-container {
@@ -446,4 +479,9 @@ p.gmail-text:hover,
 p.phone-text:hover,
 p.facebook-text:hover {
     background-color: rgb(63, 60, 60);
+}
+
+.thanks {
+    color: white;
+    font-size: 5px;
 }
