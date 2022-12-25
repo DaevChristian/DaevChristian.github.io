@@ -377,6 +377,7 @@ a.folder {
     padding: 6px 15px 0px 15px;
     background-color: #1F2428;
     border: 1px solid #1f1e1e;
+    cursor: pointer;
 }
 
 a.folder:hover {
