@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>@nnjhnqrz</title>
+    <link rel="stylesheet" href="neon.css">
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+</head>
+
+<body>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<div class="header">
+		<div class="progress-container">
+		  <div class="progress-bar" id="myBar"></div>
+		</div>
+	  </div>
+
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png.png">
+			</div>
+			<li><a href="#About Me">About Me</a></li>
+			<li><a href="#Preferences">Preferences</a></li>
+			<li><a href="#Contact">Contact</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+	<section class="firstsection">
+		
+		<div class="container">
+			<div class="image">
+			  <img src="ProfilePicture.jpg">
+			</div>
+	  
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="About Me">About Me</h1>
+				<p class="text-small">
+				I am  Neon John J. Quiroz from BSCS - 1B. Born at October 13, 2004, youngest
+                of two siblings and currently 18 years old. Currently studying at Gordon College which is located 
+                at Olongapo City Sports Complex, Gordon College, Philippine, Lungsod ng Olongapo, Zambales. 
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<br>
+				<br>
+				<br>
+				<br>
+				<h1>
+				My Top 3 Animes, Games and Song Artists
+				</h1>
+				<p class="text-small">
+				
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+						  <img src="ReZero.jpg" style="width:100%">
+						  <div class="text">Re:Zero</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <img src="Skilled-Teaser-Takagi-san.jpg" style="width:100%">
+						  <div class="text">Karakai Jozu No Takagi-San</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <img src="DetectiveConan.jpg" style="width:100%">
+						  <div class="text">Detective Conan</div>
+						</div>
+
+						<div class="mySlides fade">
+							<img src="CoDM.jpg" style="width:100%">
+							<div class="text">Call of Duty Mobile</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<img src="WildRift.png" style="width:100%">
+							<div class="text">Wild Rift</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<img src="GenshinImpact.jpg" style="width:100%">
+							<div class="text">Genshin Impact</div>
+						  </div>
+
+						  <div class="mySlides fade">
+							<img src="The-Script.jpg" style="width:100%">
+							<div class="text">The Script</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<img src="ajr.jpeg" style="width:100%">
+							<div class="text">AJR</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<img src="Paramore.jpg" style="width:100%">
+							<div class="text">Paramore</div>
+						  </div>
+						
+						</div>
+						<br> 
+						
+						<div style="text-align:center">
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						  <span class="dot"></span>
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						  <span class="dot"></span>
+						</div>
+						
+						<script>
+						let slideIndex = 0;
+						showSlides();
+						
+						function showSlides() {
+						  let i;
+						  let slides = document.getElementsByClassName("mySlides");
+						  let dots = document.getElementsByClassName("dot");
+						  for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";  
+						  }
+						  slideIndex++;
+						  if (slideIndex > slides.length) {slideIndex = 1}    
+						  for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block";  
+						  dots[slideIndex-1].className += " active";
+						  setTimeout(showSlides, 2000); // Change image every 2 seconds
+						}
+						</script>
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big" id="Contact">Contact</h1>
+			<p class="sectionSubTag text-small">
+
+				Mobile Number: (+63)930-0827-849 
+				<ion-icon name="call"></ion-icon>
+				<br>
+				You can reach out to me in the following social media platforms:
+				<br>
+				<a class="social-icon" href="https://www.facebook.com/neonjohn.quiroz" target="_blank">
+					<ion-icon name="logo-facebook"></ion-icon>
+				</a>
+
+				<a class="social-icon" href="https://twitter.com/jonhoenn" target="_blank">
+					<ion-icon name="logo-twitter"></ion-icon>
+				</a>
+
+				<a class="social-icon" href="https://instagram.com/blanknblitz" target="_blank">
+					<ion-icon name="logo-instagram"></ion-icon>
+				</a>
+
+			</p>
+
+
+		</div>
+
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+
+	<script>
+		// When the user scrolls the page, execute myFunction 
+		window.onscroll = function() {myFunction()};
+		
+		function myFunction() {
+		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		  var scrolled = (winScroll / height) * 100;
+		  document.getElementById("myBar").style.width = scrolled + "%";
+		}
+		</script>
+		
+	<button onclick="window.close()"
+        style='border-radius: 30px; font-size: 20px; float: right; margin-right: 70px; margin-top: -40px; cursor: pointer;'>
+        Close the page
+    </button>
+
+</body>
+</html>

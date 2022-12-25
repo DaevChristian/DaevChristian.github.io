@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #22272E;
+}
+
+.navbar {
+    background-color: rgb(29, 29, 30, 0.7);
+    top: 0;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+
+.navbar li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.home-container {
+    background-image: url(image/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 500px;
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: 125px;
+    font-weight: 650;
+}
+
+.main button {
+    font-size: 1.3vw;
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: 24.25vw;
+    border-radius: 2.5vw;
+    border-style: none;
+    background-color: yellow;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .main button {
+        margin-top: 34.25vw;
+    }
+}
+
+.about-container {
+    background-color: #1C2128;
+    height: 48vw;
+    width: 53vw;
+    margin-left: 23vw;
+    border-radius: 25px;
+    margin-top: 15vw;
+}
+
+
+h1.headingss {
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+    padding: 7vw;
+}
+
+.aboutinfo {
+    color: white;
+    padding: 2vw;
+    font-size: 2vw;
+    text-align: justify;
+    margin-top: -185px;
+    font-weight: 100;
+}
+
+@media (max-width: 1000px) {
+    .aboutinfo {
+        margin-top: -13vw;
+    }
+}
+
+
+.fav-container h1 {
+    color: white;
+    font-size: 6vw;
+    margin-top: 7vw;
+    margin-left: 35vw;
+    margin-bottom: 30px;
+}
+
+.fav-container ul {
+    width: 95vw;
+    height: 23vw;
+    display: flex;
+    border-radius: 10px;
+    margin-top: -90px;
+    justify-content: center;
+
+}
+
+.fav-container li {
+    color: gainsboro;
+    list-style: none;
+    text-align: center;
+    margin-top: 65px;
+    font-weight: 300;
+    width: 200px;
+}
+
+@media (max-width: 700px) {
+    .fav-container li {
+        font-size: 14px;
+        flex: 0 0 1%;
+    }
+
+    .fav-container ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.contact-container {
+    background-color: rgb(29, 29, 30, 0.7);
+    bottom: 0;
+    height: 2.5vw;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        overflow: hidden;
+        height: 4vw;
+    }
+}
+
+
+.contact-container h1 {
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.contact-container p {
+    color: white;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 12px;
+}
+
+@media (max-width: 1000px) {
+    .contact-container h1 {
+        font-size: 2vw;
+        margin-top: 1.4vw;
+    }
+
+    .contact-container p {
+        font-size: 1.9vw;
+        margin-top: -0.05vw;
+    }
+
+}

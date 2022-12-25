@@ -1,0 +1,303 @@
+@media screen and (max-width:1385px) {
+    .fav-text {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    p.fav-title {
+        margin-left: 0px;
+        text-align: center;
+
+    }
+
+    p.fav-paragraph {
+        float: none;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .fav-card {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutmeContent {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutmeText {
+        width: 532px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.abouttitle {
+        text-align: center;
+        margin-left: 0px;
+        width: 530px;
+    }
+
+    p.description-new {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .paragraph-div {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .skills {
+        display: block;
+    }
+
+    .skills-text {
+        float: none;
+        text-align: center;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.skills-title {
+        margin-top: 150px;
+    }
+
+    h1.skill-title {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 65px;
+    }
+
+    .skills-container-flex {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .intro-container {
+        width: 600px;
+        height: 1000px;
+        justify-content: center;
+    }
+
+    .intro-container img {
+        float: none;
+        margin-left: 50px;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+
+    .card-main-content {
+        width: 550px;
+    }
+
+    .card-main-content h1 {
+        text-align: center;
+    }
+
+    p.short {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    p.btntext {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 1070px) {
+    a.link {
+        display: none;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    li.list img {
+        display: block;
+    }
+
+    .list-responsive a.link {
+        display: block;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .fav-text {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    p.fav-title {
+        margin-top: 150px;
+        font-size: 75px;
+        margin-left: -40px;
+
+    }
+
+    p.fav-paragraph {
+        font-size: 20px;
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .fav-card {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+
+    p.image-name {
+        margin-left: -20px;
+        margin-right: 25px;
+        padding: 10px;
+    }
+
+    .foldercontent {
+        justify-content: center;
+    }
+
+    .aboutmeContent {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutmeText {
+        width: 532px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.abouttitle {
+        font-size: 90px;
+        margin-left: -35px;
+        width: 530px;
+    }
+
+    p.description-new {
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .paragraph-div {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .skills {
+        display: block;
+    }
+
+    .skills-text {
+        float: none;
+        text-align: center;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.skills-title {
+        margin-top: 150px;
+        font-size: 85px;
+        margin-left: -40px;
+    }
+
+    h1.skill-title {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 65px;
+    }
+
+    p.skills-paragraph {
+        font-size: 20px;
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .skills-container-flex {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .intro-container {
+        width: 400px;
+        height: 800px;
+        justify-content: center;
+    }
+
+    .intro-container img {
+        float: none;
+        margin-left: 25px;
+        margin-top: 25px;
+        border-radius: 10px;
+        height: auto;
+        width: 350px;
+    }
+
+    .card-main-content {
+        width: 100px;
+    }
+
+    .card-main-content h1 {
+        font-size: 60px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    p.short {
+        font-size: 19px;
+        width: 300px;
+    }
+
+    p.btntext {
+        margin-left: 98.53454355646566464654645645645646434px;
+    }
+
+    h1.contact-title {
+        font-size: 70px;
+    }
+
+    p.contact-description {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    p.gmail-text,
+    p.phone-text,
+    p.facebook-text {
+        width: 350px;
+    }
+
+    a.logobtn {
+        margin-left: 40px;
+    }
+
+    li.list img {
+        margin-right: -60px;
+    }
+
+
+}
