@@ -1,0 +1,248 @@
+body {
+  background-color: #e5e5f7;
+  opacity: 0.87;
+  background-image: radial-gradient(
+    #000000 0.9500000000000001px,
+    #e5e5f7 0.9500000000000001px
+  );
+  background-size: 19px 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.title-bar h1 {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 7%;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Chicle', cursive;
+  box-shadow: 2px 1px 7px 7px rgba(255, 237, 31, 0.79);
+  
+}
+
+.title-bar img {
+  position: absolute;
+  width: auto;
+  height: 180px;
+  top: 0;
+}
+
+.title-bar p {
+  font-family: 'Chicle', cursive;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  margin-top: -33px;
+  margin-left: 19px;
+}
+
+.title-bar h3 {
+  font-family: 'Chicle', cursive;
+  margin-left: 225px;
+  font-size: 50px;
+  margin-top: -100px;
+  margin-left: 215px;
+}
+
+@media only screen and (max-width:1360px){
+  .title-bar img {
+    margin-left: 5%;
+  }
+
+  .title-bar p {
+    margin-left: 30px;
+    margin-top: -90px;
+    font-size: 50px;
+  }
+
+  .title-bar h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width:1120px) {
+  .title-bar h3 {
+    display: none;
+  }
+
+  .title-bar p {
+    font-size:30px;
+  }
+}
+
+/* flexbox cattoiner */
+
+.catbox-container {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.luna-container {
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.luna-profile-pic {
+  height: 25vh;
+  width: 25vh;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: #333 2.5px solid ;
+}
+
+.luna-profile-pic img {
+  width: 54.5vh;
+  margin-left: -55px;
+}
+
+.luna-container p {
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Chicle', cursive;
+  font-size: 42px;
+}
+
+.luna-container h6,
+.luning-container h6,
+.luchi-container h6,
+.lucas-container h6
+{
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -45px;
+}
+
+.luna-container .description,
+.luning-container .description,
+.luchi-container .description,
+.lucas-container .description
+{
+  font-size: 25px;
+  text-align: left;
+  margin: 20px;
+  margin-top: -17px;
+}
+
+.luning-container {
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.luning-profile-pic {
+  height: 25vh;
+  width: 25vh;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: orange 2.5px solid ;
+}
+
+.luning-profile-pic img {
+  width: 54.5vh;
+  margin-left: -40px;
+  margin-top: -25px;
+}
+
+.luning-container p {
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Chicle', cursive;
+  font-size: 42px;
+}
+
+.luchi-container {
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.luchi-profile-pic {
+  height: 25vh;
+  width: 25vh;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: white 2.5px solid ;
+}
+
+.luchi-profile-pic img {
+  width: 56.5vh;
+  margin-left: -160px;
+}
+
+.luchi-container p {
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Chicle', cursive;
+  font-size: 42px;
+}
+
+.lucas-container {
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.lucas-profile-pic {
+  height: 25vh;
+  width: 25vh;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  border: white 2.5px solid ;
+}
+
+.lucas-profile-pic img {
+  width: 56.5vh;
+  margin-left: -98px;
+  margin-top: -50px;
+}
+
+.lucas-container p {
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Chicle', cursive;
+  font-size: 42px;
+}
+
+
+
+
+
